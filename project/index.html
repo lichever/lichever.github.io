@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="./project.css">
+
+</head>
+
+
+
+<body>
+
+    <div class="page-wrapper">
+        <div class="header">
+            <h1>Haixiang Zhang</h1>
+            <p>A MSCS Student at NEU</p>
+        </div>
+
+        <div class="navbar-container">
+            <div class="navbar">
+                <a href="../index.html">ABOUT ME</a>
+                <a href="#" class="active">PROJECT</a>
+                <a href="../contact/index.html">CONTACT</a>
+                <a href="../photo/index.html">PHOTO</a>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <h2>My Projects</h2>
+
+            <div class="projects">
+                <div class="project">
+                    <p>
+                        Online stay rental application
+                    </p>
+
+                    <ul>
+                        <li>Designed and built a single page web application based on React and mature component library
+                            Ant Design. </li>
+                        <li> Implemented the backend services based on Spring Boot to support stay upload, delete,
+                            search and reserve functionality.</li>
+                        <li>Used MySQL to store user-generated data, e.g., stay information and reservation history, and
+                            utilized Google Cloud Storage (GCS) to store media files for the uploaded stays.</li>
+                        <li>Created geo index by Elasticsearch to support geo-based stay search based on user’s selected
+                            locations.</li>
+                        <li>Implemented token-based server-side user authentication based on the Spring Security
+                            framework. </li>
+                        <li>Deployed the backend service to Google App Engine (GAE) for better scalability and
+                            reliability.</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="project">
+                    <p>
+                        Twitch Search and Recommendation Platform
+                    </p>
+
+                    <ul>
+                        <li>Designed and built a full-stack web application for users to search twitch resources
+                            (stream/video/clip) and get recommendations. </li>
+                        <li> Built a web page with rich user-friendly experience using React and Ant Design.</li>
+                        <li> Created Java servlets with RESTful APIs to handle HTTP requests and responses.</li>
+                        <li> Used MySQL to store real data and deployed it to Multi-AZ Amazon RDS for better
+                            availability and scalability.</li>
+                        <li>Improved personalized position recommendation based on search history and favorite records.
+                        </li>
+                        <li> Deployed to Amazon EC2 with Auto Scaling group attached to the Application Load Balancer
+                            for better scalability and stability.</li>
+
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <p>
+                        A Cloud and React based Social Network
+                    </p>
+
+                    <ul>
+                        <li>Designed and implemented a social network web application with React JS. </li>
+                        <li> Implemented features for users to create and browse posts and support search nearby posts.
+                        </li>
+                        <li> Improved the authentication using token based registration/login/logout flow with React
+                            Router v4 and server-side user authentication with JWT. </li>
+                        <li> Launched a scalable web service in Go to handle posts and deployed to Google Cloud (Google
+                            App Engine) </li>
+                        <li>Used ElasticSearch (deployed to GCE) to provide search functions such that users can search
+                            recent posts and list personal posts.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <p>
+                        A React JS based Starlink Trajectory Visualization Dashboard
+                    </p>
+
+                    <ul>
+                        <li> Designed and developed a visualization dashboard using ReactJS and D3 to track satellites
+                            in real-time based on geo-location.</li>
+                        <li> Built location, altitude, and duration based selector to refine satellite search.</li>
+                        <li> Animated selected satellite paths on a world map using D3 to improve the user friendness.
+                        </li>
+                        <li> Deployed the dashboard to Amazon Web Service for demonstration.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="social-media">
+                <img src="../icon/fb.svg" alt="fb" class="footer-icon">
+                <img src="../icon/twitter.svg" alt="fb" class="footer-icon">
+                <img src="../icon/instagram.svg" alt="fb" class="footer-icon">
+                <img src="../icon/snapchat.svg" alt="fb" class="footer-icon">
+                <img src="../icon/linkedin.svg" alt="fb" class="footer-icon">
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

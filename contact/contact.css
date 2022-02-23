@@ -1,0 +1,41 @@
+.main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 10rem;
+
+}
+
+.tablecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.table-header {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 2px solid var(--dark-silver);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--silver);
+}
+
+@media (max-width:400px) {
+    .tablecontainer {
+        font-size: 0.5rem;
+    }
+}

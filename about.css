@@ -1,0 +1,106 @@
+.main {
+    margin-top: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 10rem; 
+}
+
+.main p span {
+    font-weight: 700;
+}
+
+.me-picture {
+    width: 650px;
+    height: 500px;
+    padding: 10px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.seg-line {
+    border: 1px solid var(--dark-silver);
+    width: 100%;
+}
+
+.skill {
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--light-dark);
+}
+
+.skill-background {
+    background-color: var(--silver);
+    width: 100%;
+}
+
+.skill-java {
+    background-color: var(--dark-silver);
+    width: 95%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.skill-javascript {
+    background-color: var(--dark-silver);
+    width: 85%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.skill-html {
+    background-color: var(--dark-silver);
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.skill-css {
+    background-color: var(--dark-silver);
+    width: 75%;
+    padding: 5px;
+    text-align: center;
+}
+
+.skill-react {
+    background-color: var(--dark-silver);
+    width: 70%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.resume-download {
+        margin-top: 2rem;
+        border: none;
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+        background-color: var(--silver);
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        font-size: 1rem;
+        font-weight: 600;
+}
+
+.resume-download:hover{
+    color: var(--platinum);
+    background-color: var(--dark-silver);
+}
+
+@media (max-width: 750px) {
+    .main img {
+        width: 50%;
+        height: 50%;
+    }
+    
+}

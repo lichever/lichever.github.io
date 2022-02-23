@@ -1,0 +1,39 @@
+.main{
+    padding-bottom: 10rem; 
+}
+
+.main h2 {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;      
+}
+
+
+.projects {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2rem;
+
+}
+
+@media (max-width: 750px) {
+    .projects {
+        grid-template-columns: 1fr;
+        margin-bottom: 1rem;
+    }
+}
+
+.project {
+    background-color: var(--light-silver);
+    box-shadow: 0px 4px 6px 4px rgba(8, 8, 8, 0.15);
+
+}
+
+.project p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+}

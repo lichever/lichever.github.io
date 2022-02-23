@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+
+    <link rel="stylesheet" href="../common/common.css">
+
+
+    <style>
+        .main {
+            margin-left: 10vw;
+            margin-right: 10vw;
+            padding-bottom: 10rem;
+
+        }
+
+        .photo-header {
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 10px;
+            align-items: stretch;
+        }
+
+        .column {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 10px;
+        }
+
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+            box-shadow: 0px 3px 5px 3px rgba(22, 13, 13, 0.486);
+            
+        }
+
+        @media (max-width: 750px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="page-wrapper">
+        <div class="header">
+            <h1>Haixiang Zhang</h1>
+            <p>A MSCS Student at NEU</p>
+        </div>
+
+
+        <div class="navbar-container">
+            <div class="navbar">
+                <a href="../index.html">ABOUT ME</a>
+                <a href="../project/index.html">PROJECT</a>
+                <a href="../contact/index.html">CONTACT</a>
+                <a href="#" class="active"> PHOTO</a>
+            </div>
+        </div>
+
+        <div class="main">
+
+            <h2 class="photo-header">
+                My Photos
+            </h2>
+
+            <div class="row">
+                <div class="column">
+                    <img src="../img/photos/IMG_0071.JPG">
+                    <img src="../img/photos/IMG_0072.JPG">
+                    <img src="../img/photos/IMG_0382.JPG">
+                    <img src="../img/photos/IMG_0522.JPG">
+                </div>
+
+                <div class="column">
+                    <img src="../img/photos/IMG_0532.JPG">
+                    <img src="../img/photos/IMG_0532.JPG">
+                    <img src="../img/photos/IMG_1730.JPG">
+                    <img src="../img/photos/IMG_1733.JPG">
+                </div>
+
+                <div class="column">
+                    <img src="../img/photos/IMG_2978.JPG">
+                    <img src="../img/photos/IMG_2979.JPG">
+                    <img src="../img/photos/WeChat Image_20220223141109.jpg">
+                    <img src="../img/photos/WeChat Image_20220223140046.jpg">
+                </div>
+
+                <div class="column">
+                    <img src="../img/photos/IMG_3166.JPG">
+                    <img src="../img/photos/IMG_3186.JPG">
+                    <img src="../img/photos/IMG_4282.JPG">
+                    <img src="../img/photos/IMG_5830.JPG">
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            <div class="social-media">
+                <img src="../icon/fb.svg" alt="fb" class="footer-icon">
+                <img src="../icon/twitter.svg" alt="fb" class="footer-icon">
+                <img src="../icon/instagram.svg" alt="fb" class="footer-icon">
+                <img src="../icon/snapchat.svg" alt="fb" class="footer-icon">
+                <img src="../icon/linkedin.svg" alt="fb" class="footer-icon">
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
